@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>  
+        <title> Avaliação de resultados </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css"
+    </head>
+    <body>
+        <h1> Avaliação de resultados </h1>
+        <form action="saida.php" method="POST">
+            <div class="formulario">
+                <p>
+                    Nome do aluno: <input type="text" name="nomeAluno"> 
+                </p>
+                <p>
+                    Nome da disciplina: <input type="text" name="nomeDisciplina"> 
+                </p>
+                <p>
+                    Nome do curso: <input type="text" name="nomeCurso"> 
+                </p>
+                <p>
+                    <em>Link</em> para a logomarca da faculdade: <input type="text" name="linkLogo"> 
+                </p>
+                <p>
+                    Nota da Va1 (0-15): <input type="text" name="notaVa1"> 
+                </p>
+                <p>
+                    Nota da Va2 (0-25): <input type="text" name="notaVa2">
+                </p>
+                <p>
+                    Nota da Va3 (0-35): <input type="text" name="notaVa3"> 
+                </p>
+                <p>
+                    Nota dos trabalhos (0-25): <input type="text" name="notaTrabalhos"> 
+                </p>
+                <p>
+                   Nome do(a) professor(a) <input type="text" name="nomeProf"> 
+                </p>
+                <p>
+                    Nome do(a) coordenador(a) : <input type="text" name="nomeCoord"> 
+                </p>
+                <input type="submit" value="Gerar declaração">
+            </div>    
+        </form>
+    </body>
+</html>
